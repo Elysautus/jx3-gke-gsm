@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: Elysautus
+    provider: github
+    repository: jx3-terraform
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: elysautus-jx3-terraform
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/Elysautus/jx3-terraform.git
+  org: Elysautus
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx3-terraform
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/Elysautus/jx3-terraform
