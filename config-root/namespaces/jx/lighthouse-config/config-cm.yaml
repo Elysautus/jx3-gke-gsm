@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - Elysautus/jx3-gke-gsm
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.34.72.165.165.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
